@@ -6,7 +6,7 @@ venv/
 .env
 
 # Результаты и журналы
-data/output/
+data/output/*
 logs/
 *.npy
 *.log
@@ -15,3 +15,7 @@ logs/
 .idea/
 .vscode/
 .DS_Store
+
+# Сгенерированные изображения (создаются make_sample_data.py)
+data/input/images/
+!data/output/.gitkeep
